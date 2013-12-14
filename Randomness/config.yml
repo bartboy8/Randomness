@@ -1,0 +1,96 @@
+# Welcome to Randomness, a collection of any random ideas I think
+# are fun! To enable/disable things just set things from true to
+# false and vice-versa. If you have something you would like
+# implemented, just let me know!
+#  
+#  Don't Delete anything.. or you'll be in trouble!
+#  
+# By: Spawl
+# dev.bukkit.org/bukkit-plugins/Randomness/
+
+Stackables:
+      Enabled: false
+      StackPlayers: true
+      Shift-Stack: true
+
+StopBlockFall:
+      Enabled: false
+      Anvil: true
+      Gravel: true
+      Sand: true
+
+ExperienceTome:
+      Enabled: false
+
+Headhunter:
+      Enabled: false
+      Drop Player Skulls: true
+      Chance: 50%
+
+# StopSpawn
+# Valid Mob Types:
+# Blaze, Cave_Spider, Chicken, Cow, Creeper, Ender_Dragon,
+# Enderman, Ghast, Giant, Magma_Cube, Mushroom_Cow, Pig, 
+# Pig_Zombie, Sheep, Silverfish, Skeleton, Slime, Snowman, 
+# Spider, Squid, Villager, Wolf, Zombie
+StopSpawn:
+      Enabled: false
+      Mobs:
+         - Spider
+
+Enchantables:
+      Enabled: false
+      Enchantments:
+            Jump I:
+                  Enabled: true
+                  Chance: 40%
+                  Description: Gives super jump tier I!
+            Jump II:
+                  Enabled: true
+                  Chance: 20%
+                  Description: Gives super jump tier II!
+            Jump III:
+                  Enabled: true
+                  Chance: 10%
+                  Description: Gives super jump tier III!
+            Speed I:
+                  Enabled: true
+                  Chance: 40%
+                  Description: Gives speed tier I!
+            Speed II:
+                  Enabled: true
+                  Chance: 20%
+                  Description: Gives speed tier II!
+            Speed III:
+                  Enabled: true
+                  Chance: 10%
+                  Description: Gives speed tier III!
+            Slow Fall I:
+                  Enabled: true
+                  Chance: 10%
+                  Description: Lets the player fall slowly!
+            Brute I:
+                  Enabled: true
+                  Chance: 5%
+                  Description: Gives the player an extra heart!
+            Brute II:
+                  Enabled: true
+                  Chance: 2.5%
+                  Description: Gives the player 2 extra hearts!
+            Night Vision I:
+                  Enabled: true
+                  Chance: 10%
+                  Description: Gives the player night vision!
+            XP Junkie I:
+                  Enabled: true
+                  Chance: 10%
+                  XP Multiplyer: 2
+                  Description: Moar XP!
+            XP Junkie II:
+                  Enabled: true
+                  Chance: 10%
+                  XP Multiplyer: 4
+                  Description: Moar XP * 2!
+
+
+

@@ -1,0 +1,5 @@
+name: Randomness
+version: 1.0
+description: Release of Randomness
+author: bartboy8
+main: bartboy8.randomness.main.Randomness
